@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import NavScrollExample from './Navbar';
+import GroupCard from './Cards';
+import DarkVariantExample from './Carrousel';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <NavScrollExample />
+      <h2 style={{marginTop:'20px'}}>Example of Card </h2>
+      <GroupCard />
+      <DarkVariantExample />
+      </div>
   );
 }
 
